@@ -21,7 +21,6 @@ Write-Host "--- ПРОВЕРКА СТАТУСА ИНДЕКСАЦИИ (СИСТЕ
 Write-Host "============================================================" -ForegroundColor Cyan
 
 # 1. Считываем пользовательские настройки из HKCU
-$UserExclusionsRaw = @()
 $UserExclusionsPaths = @()
 $WholeDiskExclusions = @()
 
